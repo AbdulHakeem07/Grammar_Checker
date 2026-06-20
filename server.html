@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Grammar Checker Project</title>
+  <link rel="stylesheet" href="server.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>✨ Grammar Checker</h1>
+
+    <textarea id="inputStory" placeholder="Paste your story here..."></textarea>
+
+    <button onclick="processStory()">Check Grammar</button>
+
+    <div class="results">
+      <h2>📊 Results</h2>
+      <p id="wordCount"></p>
+      <p id="lengthCheck"></p>
+    </div>
+
+    <div class="output">
+      <h2>📝 Cleaned Story</h2>
+      <p id="finalStory"></p>
+    </div>
+  </div>
+
+  <script src="server.js"></script>
+</body>
+</html>
